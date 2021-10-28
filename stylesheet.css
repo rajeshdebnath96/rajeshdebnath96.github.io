@@ -107,7 +107,7 @@ a {
 }
 
 .portfolio_accent {
-  color:  #F1C40F;
+  color:  rgb(11, 194, 66);
 }
 
 .portfolio_image {
@@ -134,6 +134,15 @@ a {
   position: relative;
 }
 
+#full-div.portfolio-container > div {
+  background-color: white;
+  width: 100%;
+  margin: 4% 0% 4% 0%;
+  min-height: 20vh;
+  justify-content: center;
+  position: relative;
+}
+
 .portfolio-container_text {
   width: 90%;
   position: absolute;
@@ -145,6 +154,13 @@ a {
   position: absolute;
   text-align: center;
   color: #8E44AD;
+}
+
+.portfolio-container_video {
+  margin-top: 40%;
+  width: 90%;
+  position: absolute;
+  text-align: center;
 }
 
 .blog-container {

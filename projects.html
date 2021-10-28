@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head profile="http://www.w3.org/2005/10/profile">
+    <link rel="icon" 
+          type="image/png" 
+          href="./img/favicon.webp">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rajesh Debnath</title>
+<link rel="stylesheet" href="./stylesheet.css">
+</head>
+<body>
+
+<div class="sidenav">
+    <div class="navblock">
+        <div class="navblock_text">
+            <a href="./index.html">About</a>
+            <a href="./resume.html">Resume</a>
+            <a href="./research.html">Research</a>
+            <a style="color:#3498DB" href="./projects.html">Projects</a>
+            <a href="./contact.html">Contact</a>
+        </div>
+    </div>
+</div>
+
+<!-- 
+
+For more information aboput flexbox CSS centering of project posts
+https://www.w3schools.com/css/css3_flexbox_container.asp 
+
+-->
+
+<div class="main">
+  <h2>Selected Projects</h2>
+  <p>A selection of my previous projects.</p>
+  
+    <div class="portfolio-container" id="full-div">
+        <div class="portfolio-container_text">
+            <h3 class="portfolio_accent">Suicidal Ideation Detection from analyzing Tweets</h3>
+                
+            <p>In this project we analyzed english tweets dataset to detect suicidal ideation using BERT and later used multilingual model XLM-ROBERTa 
+                on english and spanish tweets dataset. </p>
+                
+            <p><a target="_blank" href="https://github.com/rajeshdebnath96/Suicidal-Ideation-Detection">Gitub Source</a></p>
+        </div>
+    </div>
+
+    <div class="portfolio-container" id="full-div">
+        <div class="portfolio-container_text">
+            <h3 class="portfolio_accent">Bangla to English Machine Translation Using Seq2seq Model with Attention Mechanism</h3>
+                
+            <p>In this term project, we did an experiment on Neural Machine Translation(NMT) for Bangla to English Translation. 
+                We used a moderate size dataset containing 4379 sentence translations from English to Bangla. We used seq2seq 
+                encoder-decoder model containing Word2Vec and LSTMs with and without attention for small epochs. With finely tuned 
+                hyperparameters, we observed that using Bahdanau's attention with the vanilla encoder-decoder model improves the 
+                BLEU score for Bangla to English translation. </p>
+                
+            <p><a target="_blank" href="https://github.com/rajeshdebnath96/MachineTranslation">Gitub Source</a></p>
+        </div>
+    </div>
+
+    <div>
+        <h3 class="portfolio_accent">Posture Corrector using Arduino</h3>
+        <div class="portfolio-container">
+            <div class="portfolio-container_text">
+                    
+                <p>In this work, we developed a posture corrector android application that can detect unusual bending of the user. 
+                    The application is connected with a wearable device containing Arduino and flex sensor. A user wearing a dress 
+                    containing the device gets a notification in his application if he bends in a way that is harmful to his posture. 
+                    Later a small physical motor was also introduced with the device that will force the user to correct his posture 
+                    in case he doesn't has his phone nearby. However, the work was done for term project purpose and not commercially 
+                    deployable.</p>
+            </div>
+            <div class="portfolio-container_video">
+                <iframe src="https://www.youtube.com/embed/GT-EK-BAURk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div> 
+    </div>
+
+    <div>
+        <h3 class="portfolio_accent">BD-Tourists : A cross platform application designed for travelers inside Bangladesh</h3>
+        <div class="portfolio-container">
+            <div class="portfolio-container_text">    
+                
+            <p>In this term project, a cross-platform application was developed for travelers inside Bangladesh. 
+                Using the app, anyone can easily find the popular tourist places in Bangladesh, see user reviews and available 
+                accommodations nearby the place, view the places with high risks and get suggestions on how to avoid them. 
+                The project was deployed using AngularJs framework Ionic for frontend and a Python Django server for backend; 
+                the communication between frontend and backend was established using a REST API.
+                </p>
+                
+            <p><a target="blank" href="https://github.com/rajeshdebnath96/BDTourists-App">Gitub Source</a></p>
+            </div>
+            <div class="portfolio-container_text">
+                <img class="portfolio_image" src="./img/BDTourists.gif" alt="Twilio">
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h3 class="portfolio_accent">GlowHockey using ATMega32</h3>
+        <div class="portfolio-container">
+            <div class="portfolio-container_text">      
+                    
+                <p>In this term project, an android game named glowhockey was deployed in a board containing 4 LED matrices. 
+                    The gamers could use the gyro sensor in their hands to move the glowing hockey sticks in the board. 
+                    The sensors and LED matrix were governed by an ATMega32 microprocessor which was programmed in C
+                </p>
+            </div>
+            <div class="portfolio-container_video">
+                <iframe src="https://www.youtube.com/embed/No9aVzjwjpI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h3 class="portfolio_accent">FoodiesDhaka : A Restaurant Rating Application</h3>
+        <div class="portfolio-container">
+            <div class="portfolio-container_text">        
+                    
+                <p>In this project, an application named FoodiesDhaka was developed using JavaFX and MySQL. 
+                    In this application, the app users are provided with a choice of restaurants according to different areas in 
+                    Dhaka city and they can see the user reviews and ratings for the restaurants. They can also suggest adding new 
+                    restaurants in the list that can be further reviewed and checked by the admin side. The communication is done using 
+                    Java Networking. However, the whole project was done in the localhost for term project purpose and is not 
+                    deployable commercially. </p>
+                    
+                <p><a target="blank" href="https://github.com/rajeshdebnath96/Restuarant-Rating-App">Gitub Source</a></p>
+            </div>
+            <div class="portfolio-container_text">
+                <img class="portfolio_image" src="./img/FoodiesDhaka.PNG" alt="Amazon Web Services">
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html> 
