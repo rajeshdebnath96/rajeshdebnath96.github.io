@@ -31,30 +31,61 @@ https://www.w3schools.com/css/css3_flexbox_container.asp
 
 <div class="main">
   <h2>Selected Projects</h2>
-  <p>A selection of my previous projects.</p>
+  <p>A selection of my recent research and development projects.</p>
   
     <div class="portfolio-container" id="full-div">
         <div class="portfolio-container_text">
-            <h3 class="portfolio_accent">Suicidal Ideation Detection from analyzing Tweets</h3>
+            <h3 class="portfolio_accent">Policy Distillation for Offline ITS with Meta-RL</h3>
                 
-            <p>In this project we analyzed english tweets dataset to detect suicidal ideation using BERT and later used multilingual model XLM-ROBERTa 
-                on english and spanish tweets dataset. </p>
+            <p>Combined PEARL with multi-policy distillation to transfer knowledge from strong to weak tutors; improved AUC by +0.06 and stabilized OPE under distribution shift. This project addresses the challenge of adapting tutoring policies across different educational contexts using limited interaction data.</p>
                 
-            <p><a target="_blank" href="https://github.com/rajeshdebnath96/Suicidal-Ideation-Detection">Gitub Source</a></p>
+            <p><a target="_blank" href="#">Code (add link)</a></p>
         </div>
     </div>
 
     <div class="portfolio-container" id="full-div">
         <div class="portfolio-container_text">
-            <h3 class="portfolio_accent">Bangla to English Machine Translation Using Seq2seq Model with Attention Mechanism</h3>
+            <h3 class="portfolio_accent">Decision Transformer for ITS (Delayed Rewards)</h3>
                 
-            <p>In this term project, we did an experiment on Neural Machine Translation(NMT) for Bangla to English Translation. 
-                We used a moderate size dataset containing 4379 sentence translations from English to Bangla. We used seq2seq 
-                encoder-decoder model containing Word2Vec and LSTMs with and without attention for small epochs. With finely tuned 
-                hyperparameters, we observed that using Bahdanau's attention with the vanilla encoder-decoder model improves the 
-                BLEU score for Bangla to English translation. </p>
+            <p>Modeled student trajectories as return-conditioned sequences; reduced final score MAE by 11% vs. LSTM baselines. This work demonstrates the effectiveness of transformer architectures for handling long-term dependencies in educational sequences with delayed reward signals.</p>
                 
-            <p><a target="_blank" href="https://github.com/rajeshdebnath96/MachineTranslation">Gitub Source</a></p>
+            <p><a target="_blank" href="#">Code (add link)</a></p>
+        </div>
+    </div>
+
+    <div class="portfolio-container" id="full-div">
+        <div class="portfolio-container_text">
+            <h3 class="portfolio_accent">GNNs for Gait (Prosthetic IMU)</h3>
+                
+            <p>Spatio-temporal graphs and graph transformers for terrain classification; achieved +9.4% F1 over CNN baselines. This project applies graph neural networks to analyze IMU sensor data from prosthetic limbs for improved gait recognition and terrain adaptation.</p>
+                
+            <p><a target="_blank" href="#">Code (add link)</a></p>
+        </div>
+    </div>
+
+    <div class="portfolio-container" id="full-div">
+        <div class="portfolio-container_text">
+            <h3 class="portfolio_accent">Adversarial DQN for Algorithmic Trading</h3>
+                
+            <p>Implemented robust DQN under corrupted/noisy rewards; benchmarked stability w.r.t. reward perturbations and market regime shifts. The system reports Sharpe/Sortino ratios, max drawdown, and win rate metrics to evaluate trading performance under various market conditions.</p>
+                
+            <p><a target="_blank" href="#">Code</a></p>
+        </div>
+    </div>
+
+    <div class="portfolio-container" id="full-div">
+        <div class="portfolio-container_text">
+            <h3 class="portfolio_accent">Wildfire Detection from Drone Imagery (FLAME-2)</h3>
+                
+            <p>Trained Swin Transformer and ViT for wildfire detection on FLAME-2; established baselines with clear data preprocessing/eval protocol. This project applies state-of-the-art vision transformers to early wildfire detection from aerial imagery.</p>
+        </div>
+    </div>
+
+    <div class="portfolio-container" id="full-div">
+        <div class="portfolio-container_text">
+            <h3 class="portfolio_accent">Robot Navigation in ROS 2 Simulation</h3>
+                
+            <p>Trained DQN and SARSA agents for goal-directed navigation in ROS 2 Gazebo simulation; compared sample efficiency and success rate. This work explores reinforcement learning approaches for autonomous robot navigation in simulated environments.</p>
         </div>
     </div>
 
